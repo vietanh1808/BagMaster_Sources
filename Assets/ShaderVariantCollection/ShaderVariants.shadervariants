@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariants
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 73bfa57a91f17f8488db7d533a84b478, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: COLOR_FILTER
+        passType: 0
+      - keywords: COLOR_FILTER TONE_GRAYSCALE
+        passType: 0
+      - keywords: COLOR_FILTER TRANSITION_SHINY
+        passType: 0
+      - keywords: DETAIL_ADDITIVE TRANSITION_SHINY
+        passType: 0
+      - keywords: DETAIL_MASKING TRANSITION_SHINY
+        passType: 0
+      - keywords: DETAIL_MULTIPLY TRANSITION_SHINY
+        passType: 0
+      - keywords: DETAIL_MULTIPLY_ADDITIVE
+        passType: 0
+      - keywords: DETAIL_SUBTRACTIVE TRANSITION_SHINY
+        passType: 0
+      - keywords: EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_SHINY TONE_GRAYSCALE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: EDGE_SHINY TRANSITION_SHINY
+        passType: 0
+      - keywords: EDGE_SHINY UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: GRADATION_COLOR2
+        passType: 0
+      - keywords: GRADATION_COLOR2 UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_BLUR_FAST
+        passType: 0
+      - keywords: SAMPLING_BLUR_MEDIUM
+        passType: 0
+      - keywords: SAMPLING_BLUR_MEDIUM TRANSITION_SHINY
+        passType: 0
+      - keywords: SAMPLING_PIXELATION
+        passType: 0
+      - keywords: TONE_GRAYSCALE
+        passType: 0
+      - keywords: TONE_NEGATIVE
+        passType: 0
+      - keywords: TONE_POSTERIZE
+        passType: 0
+      - keywords: TONE_POSTERIZE TRANSITION_SHINY
+        passType: 0
+      - keywords: TONE_RETRO
+        passType: 0
+      - keywords: TONE_SEPIA
+        passType: 0
+      - keywords: TRANSITION_BLAZE
+        passType: 0
+      - keywords: TRANSITION_BURN
+        passType: 0
+      - keywords: TRANSITION_CUTOFF
+        passType: 0
+      - keywords: TRANSITION_DISSOLVE
+        passType: 0
+      - keywords: TRANSITION_FADE
+        passType: 0
+      - keywords: TRANSITION_MASK
+        passType: 0
+      - keywords: TRANSITION_MELT
+        passType: 0
+      - keywords: TRANSITION_PATTERN
+        passType: 0
+      - keywords: TRANSITION_PATTERN UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_SHINY UNITY_UI_ALPHACLIP
+        passType: 0
