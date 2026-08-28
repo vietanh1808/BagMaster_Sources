@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224730242686860875}
+  - component: {fileID: 222724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 5
+  m_Name: monster_preview__Fire Slime (Boss)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224730242686860875
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: -0, z: -180}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 350, y: 325}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222724804207875695
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_CullTransparentMesh: 1
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 33bd29e2fcd2e404896851b1da142581, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5caf24176fb90fa203716cf20faeb3a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  frames:
+  - {fileID: 21300000, guid: 33bd29e2fcd2e404896851b1da142581, type: 2}
+  - {fileID: 21300000, guid: 874c5c5ae3f916b4a9359358fdea4583, type: 2}
+  - {fileID: 21300000, guid: 84daccc8c403cc84bb80a5f2154bda06, type: 2}
+  - {fileID: 21300000, guid: d5420b3d1f14c5d429bd2d4f718d0635, type: 2}
+  - {fileID: 21300000, guid: 8720182312781fd448c90f41e54fc892, type: 2}
+  - {fileID: 21300000, guid: 56f1a172bc03dad4d93133a09da07562, type: 2}
+  - {fileID: 21300000, guid: c1c7be9293e609548bc73e141aff35c1, type: 2}
+  - {fileID: 21300000, guid: 46086982edc13c14a9fc02572827134a, type: 2}
+  - {fileID: 21300000, guid: 39ca0fab2c114414da871bb3e2656f1f, type: 2}
+  - {fileID: 21300000, guid: 1e64ddc087e5a0842a2ad15505bcc532, type: 2}
+  - {fileID: 21300000, guid: 975c2b261ef7a8d40b0c27ee2aa45742, type: 2}
+  - {fileID: 21300000, guid: 31b9a7366e420f846bd91441b30e5008, type: 2}
+  - {fileID: 21300000, guid: cb0420ecb949c474daef51de00877f4d, type: 2}
+  - {fileID: 21300000, guid: 27a7723942a9389438be597a2d396b78, type: 2}
+  - {fileID: 21300000, guid: 6f14d2cf28342ba4399aaa496cc970dd, type: 2}
+  - {fileID: 21300000, guid: 7c07ceb6809a386488e32ae1aeada02d, type: 2}
+  - {fileID: 21300000, guid: 60093c05b29990443a01ea1d14f5167f, type: 2}
+  - {fileID: 21300000, guid: d51097e1d7f7a8e47b515ff114247177, type: 2}
+  - {fileID: 21300000, guid: 5484365926a39214d944423e4fd47da1, type: 2}
+  - {fileID: 21300000, guid: 5a9e0cf493f2df04ba5c887fc128bd72, type: 2}
+  frameRate: 0.1

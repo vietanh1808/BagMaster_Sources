@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224730242686860875}
+  - component: {fileID: 222724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 5
+  m_Name: monster_preview__Bat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224730242686860875
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: -0, z: -180}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 708, y: 582}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222724804207875695
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_CullTransparentMesh: 1
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: bdb9cc97d60c92844a8c3dec7109ccc7, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5caf24176fb90fa203716cf20faeb3a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  frames:
+  - {fileID: 21300000, guid: bdb9cc97d60c92844a8c3dec7109ccc7, type: 2}
+  - {fileID: 21300000, guid: 464e504decd69754e9512ae41f5e1b3b, type: 2}
+  - {fileID: 21300000, guid: 69a26c23a0d7dd64d8f9129cd37737fe, type: 2}
+  - {fileID: 21300000, guid: 1d92360005daacb469b5e2025a601d56, type: 2}
+  - {fileID: 21300000, guid: abc209be539d32a48b4fdbb30dcce411, type: 2}
+  - {fileID: 21300000, guid: 09b5f61d39a76aa43b36d499a5ab57e2, type: 2}
+  - {fileID: 21300000, guid: 60ac63c9e5ad2504eb400d2d202e66da, type: 2}
+  - {fileID: 21300000, guid: fa6f1d617767b1842b1d35e9d3504154, type: 2}
+  - {fileID: 21300000, guid: ccf36e16b31fec248bc90f8ee7045d26, type: 2}
+  - {fileID: 21300000, guid: 57e9d1d96f3ec724ca11f71d729ae7e5, type: 2}
+  - {fileID: 21300000, guid: 36b0adb6ccc29a0429c2c5f6a4d5b010, type: 2}
+  - {fileID: 21300000, guid: 32c34e5008034e14c8395e667a6ac68a, type: 2}
+  - {fileID: 21300000, guid: 35ca3e41f481f6d4badb6c6bd4749fb4, type: 2}
+  - {fileID: 21300000, guid: a3d8d1aaf0aaaae49b9d8d37eee95283, type: 2}
+  - {fileID: 21300000, guid: 65861c53a51d89247b5da20479a0c446, type: 2}
+  - {fileID: 21300000, guid: 6b7dc7e904ed9504abf68c57aa72ccd3, type: 2}
+  - {fileID: 21300000, guid: 0c0281afaa65d7540855517ce5014560, type: 2}
+  - {fileID: 21300000, guid: daa2d78e87dfa9a4cb6cf68ad562cc0f, type: 2}
+  - {fileID: 21300000, guid: 10d3f7b952544674f8d032c2bd6e7d0c, type: 2}
+  - {fileID: 21300000, guid: 27b9ac93c4f8167428fed1459f5c0681, type: 2}
+  frameRate: 0.1
