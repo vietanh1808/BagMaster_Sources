@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 798a7d499e14b51a032d4d299666999a, type: 3}
+  m_Name: Equipment Rarities
+  m_EditorClassIdentifier:
+  _rarityVisualDatas:
+  - Rarity: 0
+    Visuals:
+    - {fileID: 11400000, guid: d7eaca73e7c18ab47909553771c87c2a, type: 2}
+  - Rarity: 1
+    Visuals:
+    - {fileID: 11400000, guid: 2eb065617b564f34ea09d52a68c26fde, type: 2}
+  - Rarity: 2
+    Visuals:
+    - {fileID: 11400000, guid: 57218d205d7a3a24eb9521a717dd74ef, type: 2}
+  - Rarity: 3
+    Visuals:
+    - {fileID: 11400000, guid: 0503e74cba6edd340935615a114b20bb, type: 2}
+    - {fileID: 11400000, guid: d2e70d2b5ba10354e9579647f8840b96, type: 2}
+    - {fileID: 11400000, guid: 4227316742b23f344abf62ba78ee83c0, type: 2}
+  - Rarity: 4
+    Visuals:
+    - {fileID: 11400000, guid: d3fda4005f1ff394b8415484331b8d83, type: 2}
+    - {fileID: 11400000, guid: 8ce4efa6576d9ff4cb3ef027148fe158, type: 2}
+    - {fileID: 11400000, guid: 221d6e09301592e42b5a28e9c1863bb1, type: 2}
+    - {fileID: 11400000, guid: 9e833ea68f60ed6498fcf70de666c2a3, type: 2}
+  - Rarity: 5
+    Visuals:
+    - {fileID: 11400000, guid: 707e069275b731b49889f63ee226f5f0, type: 2}
+    - {fileID: 11400000, guid: cbb88ed89d734d044802c8808a38e21d, type: 2}
+    - {fileID: 11400000, guid: f4b49d755829b4147a1449f026030b16, type: 2}
+    - {fileID: 11400000, guid: bc943e259a93bf34a8e66b9227dc7d4f, type: 2}
+    - {fileID: 11400000, guid: 4ffd5253d0a84a645abb142fc6820eb1, type: 2}
+  - Rarity: 6
+    Visuals:
+    - {fileID: 11400000, guid: d7f39672470a6594988bdd0f87a3b68e, type: 2}
+  _tierIcons:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 185ceb6a472e6fd488084e64a7575d1c, type: 2}
