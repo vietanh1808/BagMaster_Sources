@@ -1,0 +1,25 @@
+public enum COMBAT
+{
+	Weaher_Description_DustStorm = 0,
+	Weaher_Description_Default = 1,
+	Weaher_Description_Blaze = 2,
+	Weaher_Description_Blizzard = 3,
+	Weaher_Description_SporeBloom = 4,
+	Weaher_Description_Rain = 5,
+	ElementalCounter_Fire = 6,
+	ElementalCounter_Plant = 7,
+	ElementalCounter_Electric = 8,
+	ElementalCounter_Ice = 9,
+	Weaher_Description_Fire = 10,
+	Weaher_Description_Ice = 11,
+	Weaher_Description_Lightning = 12,
+	Weaher_Description_Plant = 13,
+	Weaher_Description_GoldCave = 14,
+	Weaher_Description_Tower = 15,
+	Toast_SkillNotReady = 16,
+	Text_BossWarning = 17,
+	Text_BossAppear = 18,
+	FloatingText_Dodge = 19,
+	FloatingText_Immune = 20,
+	CombatLevel = 21
+}

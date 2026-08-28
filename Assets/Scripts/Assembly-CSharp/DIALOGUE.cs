@@ -1,0 +1,26 @@
+public enum DIALOGUE
+{
+	Dialogue_900001_1 = 0,
+	Dialogue_900001_2 = 1,
+	Dialogue_900001_3 = 2,
+	Dialogue_900002_1 = 3,
+	Dialogue_900002_2 = 4,
+	Dialogue_900003_1 = 5,
+	CharacterName_OInking = 6,
+	Dialogue_RedBossIntro_1 = 7,
+	Dialogue_RedBossIntro_2 = 8,
+	Dialogue_RedBossIntro_3 = 9,
+	Dialogue_RedBossIntro_4 = 10,
+	Dialogue_RedBossIntro_5 = 11,
+	Dialogue_RedBossIntro_6 = 12,
+	Dialogue_RedBossIntro_7 = 13,
+	Dialogue_RedBossIntro_8 = 14,
+	Dialogue_RedBossIntro_9 = 15,
+	Dialogue_RedBossIntro_10 = 16,
+	Dialogue_RedBossIntro_11 = 17,
+	Dialogue_RedBossIntro_12 = 18,
+	Dialogue_RedBossIntro_13 = 19,
+	Dialogue_RedBossIntro_14 = 20,
+	Dialogue_RedBossIntro_15 = 21,
+	Dialogue_RedBossIntro_16 = 22
+}

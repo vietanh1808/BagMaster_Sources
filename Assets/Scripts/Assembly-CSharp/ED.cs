@@ -1,0 +1,6 @@
+public enum ED
+{
+	BANNER_LOCK_TEXT = 0,
+	TITLE = 1,
+	INFO_POPUP_UNLOCK_TEXT = 2
+}

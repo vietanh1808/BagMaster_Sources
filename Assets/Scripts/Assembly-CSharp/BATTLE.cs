@@ -1,0 +1,28 @@
+public enum BATTLE
+{
+	Title_Chapter = 0,
+	Title_wave = 1,
+	Button_BuySlot = 2,
+	Button_BuySlot_Maxed = 3,
+	Button_BuySlot_NotEnoughGold = 4,
+	Button_Reroll = 5,
+	Button_Reroll_Free = 6,
+	Button_RecycleAndReroll = 7,
+	Button_Reroll_NotEnoughGold = 8,
+	Button_Battle = 9,
+	Button_RecycleAndBattle = 10,
+	Title_Recycle = 11,
+	Title_Recycle_UsesLeft = 12,
+	Title_Bench = 13,
+	Title_Bench_UsesLeft = 14,
+	Title_FireGear = 15,
+	Title_PlantGear = 16,
+	Title_ElectricGear = 17,
+	Title_IceGear = 18,
+	Title_DamageRank = 19,
+	Title_SupportGearLists = 20,
+	Title_BuffsList = 21,
+	X3SpeedToast = 22,
+	TextNewGear = 23,
+	Toast_Unlockx3 = 24
+}
