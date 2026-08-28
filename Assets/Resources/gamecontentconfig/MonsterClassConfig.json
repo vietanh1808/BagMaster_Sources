@@ -1,0 +1,479 @@
+[
+    {
+        "ID": 1,
+        "Name": "Normal",
+        "HP_Scale": 4,
+        "Atk_Scale": 0.8,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 2,
+        "Name": "Creep",
+        "HP_Scale": 9,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 3,
+        "Name": "Speed",
+        "HP_Scale": 2,
+        "Atk_Scale": 0.6,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 4,
+        "Name": "Heal",
+        "HP_Scale": 5,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 5,
+        "Name": "Range_Tank",
+        "HP_Scale": 6,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 6,
+        "Name": "Tank",
+        "HP_Scale": 12,
+        "Atk_Scale": 1.4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 7,
+        "Name": "Elite",
+        "HP_Scale": 40,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 8,
+        "Name": "Boss_Easy",
+        "HP_Scale": 40,
+        "Atk_Scale": 3,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 9,
+        "Name": "Minion",
+        "HP_Scale": 1,
+        "Atk_Scale": 0.2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 10,
+        "Name": "Boss_Normal",
+        "HP_Scale": 80,
+        "Atk_Scale": 3.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 11,
+        "Name": "Boss_Hard",
+        "HP_Scale": 140,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 12,
+        "Name": "Boss_Warlock",
+        "HP_Scale": 40,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 13,
+        "Name": "Tank_Slow",
+        "HP_Scale": 12,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 14,
+        "Name": "Boss_Hard_Speed",
+        "HP_Scale": 140,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 15,
+        "Name": "Boss_Easy_Bear",
+        "HP_Scale": 45,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 4,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 16,
+        "Name": "Boss_Hard_Archmage",
+        "HP_Scale": 140,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 2.25,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 17,
+        "Name": "Boss_Hard_Prophet",
+        "HP_Scale": 140,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 18,
+        "Name": "Elemental_Minion",
+        "HP_Scale": 1,
+        "Atk_Scale": 0.2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 19,
+        "Name": "Elemental_Tank",
+        "HP_Scale": 24,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 20,
+        "Name": "Elemental_Boss_Easy",
+        "HP_Scale": 80,
+        "Atk_Scale": 3,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 21,
+        "Name": "Elemental_Boss_Normal",
+        "HP_Scale": 160,
+        "Atk_Scale": 3.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 22,
+        "Name": "Elemental_Boss_Hard",
+        "HP_Scale": 240,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 23,
+        "Name": "Range_Sniper",
+        "HP_Scale": 6,
+        "Atk_Scale": 1.75,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 24,
+        "Name": "Tank_2",
+        "HP_Scale": 14,
+        "Atk_Scale": 1.4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 25,
+        "Name": "Elemental_Ranger",
+        "HP_Scale": 12,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 26,
+        "Name": "Ram_Battler_Normal",
+        "HP_Scale": 12,
+        "Atk_Scale": 0.15,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 27,
+        "Name": "Ram_Battler_Boss_Easy",
+        "HP_Scale": 40,
+        "Atk_Scale": 0.3,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 28,
+        "Name": "Ram_Battler_Boss_Normal",
+        "HP_Scale": 80,
+        "Atk_Scale": 0.35,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 29,
+        "Name": "Ram_Battler_Boss_Hard",
+        "HP_Scale": 140,
+        "Atk_Scale": 0.4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 30,
+        "Name": "Boss_Easy_WolfRider",
+        "HP_Scale": 40,
+        "Atk_Scale": 1.275,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 31,
+        "Name": "Boss_Normal_WolfRider",
+        "HP_Scale": 80,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 32,
+        "Name": "Boss_Hard_WolfRider",
+        "HP_Scale": 140,
+        "Atk_Scale": 2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 33,
+        "Name": "Elemental_Fire_Golem",
+        "HP_Scale": 8,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 34,
+        "Name": "Elemental_Ice_Golem",
+        "HP_Scale": 12,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 35,
+        "Name": "Elemental_Lightning_Golem",
+        "HP_Scale": 2,
+        "Atk_Scale": 0.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 36,
+        "Name": "Elemental_Plant_Golem",
+        "HP_Scale": 12,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 37,
+        "Name": "Minion_Pig",
+        "HP_Scale": 1,
+        "Atk_Scale": 0.2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 38,
+        "Name": "Tank_Pig",
+        "HP_Scale": 10,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 39,
+        "Name": "Suicide_Speed",
+        "HP_Scale": 2,
+        "Atk_Scale": 1,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 40,
+        "Name": "Suicide_Normal",
+        "HP_Scale": 4,
+        "Atk_Scale": 1.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 41,
+        "Name": "Boss_Easy_Suicide",
+        "HP_Scale": 40,
+        "Atk_Scale": 3,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 42,
+        "Name": "Boss_Normal_Suicide",
+        "HP_Scale": 80,
+        "Atk_Scale": 3.5,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 43,
+        "Name": "Boss_Hard_Suicide",
+        "HP_Scale": 140,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 44,
+        "Name": "Tank_BeastMaster",
+        "HP_Scale": 10,
+        "Atk_Scale": 2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 45,
+        "Name": "Tank_3_ultra",
+        "HP_Scale": 24,
+        "Atk_Scale": 3,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 2.5,
+        "Step_Speed_Modifier": 2.5
+    },
+    {
+        "ID": 46,
+        "Name": "Speed-1",
+        "HP_Scale": 2,
+        "Atk_Scale": 0.6,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 47,
+        "Name": "Speed-2",
+        "HP_Scale": 3,
+        "Atk_Scale": 0.6,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 1,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 48,
+        "Name": "Tank_4_mega",
+        "HP_Scale": 30,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 2.5,
+        "Step_Speed_Modifier": 2
+    },
+    {
+        "ID": 49,
+        "Name": "Range_Tank",
+        "HP_Scale": 10,
+        "Atk_Scale": 4,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 2,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 50,
+        "Name": "Boss_Easy_TrolLWarlord",
+        "HP_Scale": 45,
+        "Atk_Scale": 2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 51,
+        "Name": "Boss_Normal_TrolLWarlord",
+        "HP_Scale": 80,
+        "Atk_Scale": 2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 52,
+        "Name": "Boss_Hard_TrolLWarlord",
+        "HP_Scale": 120,
+        "Atk_Scale": 2,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 0.5,
+        "Step_Speed_Modifier": 1
+    },
+    {
+        "ID": 99,
+        "Name": "Boss_Normal_GoldKing",
+        "HP_Scale": 200,
+        "Atk_Scale": 99999,
+        "Res_Scale": 1,
+        "Atk_Interval_scale": 2,
+        "Step_Speed_Modifier": 1
+    }
+]

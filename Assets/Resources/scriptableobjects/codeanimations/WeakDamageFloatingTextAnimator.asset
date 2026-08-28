@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1420908176, guid: 255575f88474cab30354acaeca7e4a5b, type: 3}
+  m_Name: WeakDamageFloatingTextAnimator
+  m_EditorClassIdentifier:
+  _startArea: {x: 0.2, y: 0}
+  _duration: 1
+  _horizontalCurve:
+    UseEase: 0
+    Ease: 7
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0019721985
+        value: 0
+        inSlope: 0.769735
+        outSlope: 0.39819795
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.10394374
+      - serializedVersion: 3
+        time: 1.0009899
+        value: 0.3978068
+        inSlope: 0.39819795
+        outSlope: 0.39819795
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _verticalCurve:
+    UseEase: 0
+    Ease: 7
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0019721985
+        value: 0
+        inSlope: 0.9222772
+        outSlope: 0.9222772
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.2979811
+      - serializedVersion: 3
+        time: 0.31751055
+        value: 0.669724
+        inSlope: 0.122981615
+        outSlope: 0.069687374
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: 0.27677053
+        outWeight: 0.07451845
+      - serializedVersion: 3
+        time: 0.99932176
+        value: -0.4143401
+        inSlope: -2.5327487
+        outSlope: -2.5327487
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.06208065
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _sizeCurve:
+    UseEase: 0
+    Ease: 1
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0019721985
+        value: 0.75
+        inSlope: 1.3411866
+        outSlope: 1.3411866
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.30745706
+      - serializedVersion: 3
+        time: 0.17333248
+        value: 1.1039454
+        inSlope: 0.97565484
+        outSlope: 0.88242257
+        tangentMode: 0
+        weightedMode: 1
+        inWeight: 0.5751695
+        outWeight: 0.3231478
+      - serializedVersion: 3
+        time: 0.37403974
+        value: 1.0537661
+        inSlope: -1.2668896
+        outSlope: -1.1325936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.25191838
+        outWeight: 0.43079716
+      - serializedVersion: 3
+        time: 0.48410353
+        value: 0.9785766
+        inSlope: 0.0038248247
+        outSlope: 0.0038248247
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.29621422
+      - serializedVersion: 3
+        time: 0.683072
+        value: 1
+        inSlope: 0.042039715
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.38341302
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _sizeScale: 0.2
+  _rotationCurve:
+    UseEase: 0
+    Ease: 7
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9970703
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _angularRange: {x: 0, y: 300}
+  _fadeDelay: 0.15
+  _fadeDuration: 0.8
+  _fadeCurve:
+    UseEase: 1
+    Ease: 7
+    AnimationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

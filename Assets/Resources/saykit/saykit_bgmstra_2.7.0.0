@@ -1,0 +1,323 @@
+{
+    "ads_groups": [
+        {
+            "force_impression_every": 0,
+            "group": "default",
+            "skip_after_first_app_start": 2400,
+            "skip_after_interstitial": 160,
+            "skip_after_rewarded": 160,
+            "skip_after_start": 160,
+            "skip_period_duration": 0,
+            "skip_period_limit": 0
+        }
+    ],
+    "ads_places": [
+        {
+            "group": "default",
+            "place": "ad_rewarded_default",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_quick_mine",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_revive",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_buff_reroll",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_result_reward",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_more_energy",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_shop_gacha_chest",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_interstitial_default",
+            "status": "skip",
+            "type": "interstitial"
+        },
+        {
+            "group": "default",
+            "place": "ad_interstitial_gameplay_result",
+            "status": "skip",
+            "type": "interstitial"
+        },
+        {
+            "group": "default",
+            "place": "ad_interstitial_gameplay_pause",
+            "status": "skip",
+            "type": "interstitial"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_buff_takeall",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_interstitial_tut_dailylogin",
+            "status": "skip",
+            "type": "interstitial"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_slot_buy",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_gear_reroll",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_refill_bench",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_gameplay_refill_recycle",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_dungeon_ticket",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_interstitial_gameplay_boss_death",
+            "status": "skip",
+            "type": "interstitial"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_dailygift",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_continue_after_defeat",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_active_skill_CD",
+            "status": "always",
+            "type": "rewarded"
+        },
+        {
+            "group": "default",
+            "place": "ad_rewarded_black_market_refresh",
+            "status": "always",
+            "type": "rewarded"
+        }
+    ],
+    "ads_settings": {
+        "amazon_aps_app_id": "b98ebdad-ff8c-44ee-8978-354b8a929183",
+        "amazon_aps_banner_leader_slot_id": "cbce14ca-5437-4dac-9fc5-d77e6246fa9d",
+        "amazon_aps_banner_slot_id": "742cfa72-e96c-447b-97a9-b2d390f7e87e",
+        "amazon_aps_enabled": 1,
+        "amazon_aps_inter_slot_id": "9e547455-c0d8-4afd-a0a7-31d3d5071272",
+        "amazon_aps_rewarded_slot_id": "56177c78-cbb7-4120-8fe5-e8d7bf245c36",
+        "banner_bg_color": "#ffffff",
+        "banner_bg_padding": 3,
+        "banner_disabled": 0,
+        "banner_placement": "",
+        "banner_refresh_timeout": 10,
+        "disabled_networks": "",
+        "int_l": [
+            {
+                "bcf": 1,
+                "bcfc": 1000000,
+                "floor": [
+                    0,
+                    0
+                ],
+                "id": "3addbe5f98a39335",
+                "mt": 1,
+                "sbat": 0
+            },
+            {
+                "amz": 1,
+                "bcf": 1,
+                "bcfc": 1000000,
+                "id": "19c6e4f70d85e887",
+                "mt": 1,
+                "sbat": 0
+            }
+        ],
+        "int_post_bid_l": {
+            "bcf": 1,
+            "bcfc": 1000000,
+            "cfg": {
+                "frq": 2,
+                "tms": 1
+            },
+            "id": "32a9478667bd9e26",
+            "mt": 1,
+            "sbat": 0
+        },
+        "interstitial_placement": "",
+        "interstitial_reward_enabled": 1,
+        "interstitial_reward_times": 0,
+        "maxsdk_interstitial_post_id": "",
+        "maxsdk_interstitial_pre_id": "",
+        "maxsdk_key": "NDcrL4E6eTcwHnfZbHRNw-0AoxPCMdQSgFOFkOyJ8D1VJrumRobtyvufr93tccBk3mIya4_CTO_SENV-vluony",
+        "maxsdk_rewarded_post_id": "",
+        "maxsdk_rewarded_pre_id": "",
+        "mediation_banner_ids": [
+            "73619decb9fed16f"
+        ],
+        "mediation_native_ids": [
+            "520fb04ad601ffaf"
+        ],
+        "mediations": {
+            "cfg": {
+                "bmt": 1
+            },
+            "init": {
+                "1": {
+                    "key": "NDcrL4E6eTcwHnfZbHRNw-0AoxPCMdQSgFOFkOyJ8D1VJrumRobtyvufr93tccBk3mIya4_CTO_SENV-vluony",
+                    "mt": 1,
+                    "weight": 1
+                }
+            }
+        },
+        "native_max_cost": 20,
+        "native_refresh_timeout": 15,
+        "ping_events": "imp_d1_10,imp_d1_2,imp_d1_20,imp_d1_30,imp_d1_40,imp_d1_5,imp_d2_10,imp_d2_20,imp_d3_10,imp_d3_20,imp_d5_50,imp_d7_50,ltv_d1_15",
+        "rew_l": [
+            {
+                "bcf": 1,
+                "bcfc": 1000000,
+                "floor": [
+                    0,
+                    0
+                ],
+                "id": "4a1ab0f59b42b4c3",
+                "mt": 1,
+                "sbat": 0
+            },
+            {
+                "amz": 1,
+                "bcf": 1,
+                "bcfc": 1000000,
+                "id": "e6061665a36a652c",
+                "mt": 1,
+                "sbat": 0
+            }
+        ],
+        "rew_post_bid_l": {
+            "bcf": 1,
+            "bcfc": 1000000,
+            "cfg": {
+                "frq": 2,
+                "tms": 1
+            },
+            "id": "759fbcf279c54ae9",
+            "mt": 1,
+            "sbat": 0
+        },
+        "rewarded_placement": "",
+        "srv_interstitial_payload": "{\"base\":0,\"tid\":\"3d137582aaccc4ec\"}",
+        "srv_rewarded_payload": "{\"base\":0,\"tid\":\"48bb6da63761e716\"}",
+        "watchdog_interstitial": 0,
+        "watchdog_rewarded": 0
+    },
+    "game_settings": {
+        "AdsRemovalDiscountDuration": 1,
+        "AdsRemovalRepeatOfferAfterInterCount": 3,
+        "BannerAdsOn": 1,
+        "BannerAdsStartLevel": 5,
+        "CloudSaveUnlockCampaignId": 11005,
+        "EnergyRefillDuration": 30,
+        "GlobalContinueFromDefeatLimit": 1,
+        "InterAdsAfterBossStartLevel": 8,
+        "InterAdsStartLevel": 5,
+        "InterAdsWaveInterval": 5,
+        "IsCloudSaveEnabled": 1,
+        "IsElementalIconEnabled": 1,
+        "IsHardHellModeEnabled": 0,
+        "LevelConfigVariant": 1,
+        "MaxRevivePerRun": 3,
+        "MaxTakeAllCombatBuffByPurchasePerRun": 5,
+        "MonsterLevelVariant": 0,
+        "NewbiePackUnlockCampaignId": 999999,
+        "OfferAdsRemovalAtLevel": 4,
+        "PackCardLifeTimeDiscountActive": 0,
+        "PackCardLifeTimeDiscountAfterDays": 7,
+        "PackMidasLifeTimeDiscountActive": 0,
+        "PackMidasLifeTimeDiscountAfterDays": 7,
+        "ProductLogEnable": 0,
+        "ReviveQuickAidConfigs": "[{\"IsAdsAllow\":true,\"ShopPackId\":1025,\"RequiredResource\":{\"Id\":103,\"Value\":100}},{\"IsAdsAllow\":false,\"ShopPackId\":1026,\"RequiredResource\":{\"Id\":103,\"Value\":250}},{\"IsAdsAllow\":false,\"ShopPackId\":1027,\"RequiredResource\":{\"Id\":103,\"Value\":500}}]",
+        "RewardConfigVariant": 1,
+        "TakeAllBuffsQuickAidConfigs": "[{\"IsAdsAllow\":false,\"ShopPackId\":1008,\"RequiredResource\":{\"Id\":103,\"Value\":200}},{\"IsAdsAllow\":false,\"ShopPackId\":1009,\"RequiredResource\":{\"Id\":103,\"Value\":300}},{\"IsAdsAllow\":false,\"ShopPackId\":1010,\"RequiredResource\":{\"Id\":103,\"Value\":400}},{\"IsAdsAllow\":false,\"ShopPackId\":1010,\"RequiredResource\":{\"Id\":103,\"Value\":600}},{\"IsAdsAllow\":false,\"ShopPackId\":1010,\"RequiredResource\":{\"Id\":103,\"Value\":1000}}]",
+        "none": 0
+    },
+    "runtime": {
+        "ad_conversion": 1,
+        "ad_impression": 1,
+        "ads_free_memory_check_enabled": 1,
+        "ads_free_memory_count": 200,
+        "analytic_log_level": 1,
+        "consent_ui_admob": 1,
+        "country": "SG",
+        "disable_ad_unit_cache": [
+            "73619decb9fed16f",
+            "520fb04ad601ffaf"
+        ],
+        "disable_fb_purchase_manager": 0,
+        "disable_interstitial_lost": 1,
+        "fb_purchase_ads_revenue": 1,
+        "fb_purchase_ads_revenue_session": 0,
+        "fb_purchase_iap_revenue": 0,
+        "gdpr_applicable": 0,
+        "hash": "010196a52c2f0204143838044f8724b50529cf81ff",
+        "inapp_flow": 0,
+        "say_pay": 0,
+        "segment": 0,
+        "status": 1,
+        "timestamp": 1786465470,
+        "track_ad_click_window_ms": 2000,
+        "track_ad_relaunch_time": 1500
+    },
+    "settings": {
+        "anr_service_enabled": 1,
+        "anr_service_timeout": 7,
+        "anr_service_type": 3,
+        "ping_events": "level_completed_5,level_completed_10,level_completed_30,level_completed_50,level_attempt_5,level_attempt_10,session_started_5,session_started_10,level_completed_every_2,level_completed_every_5,level_completed_every_10,level_completed_every_30,level_completed_every_50,session_day_2,ad_time_30,ad_time_60"
+    }
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbc76a09371201f8648f07a1a6a0e08, type: 3}
+  m_Name: GearSynercyEffectProfile
+  m_EditorClassIdentifier:
+  <InitialDelay>k__BackingField: 0
+  <ThrownVfx>k__BackingField: {fileID: 1709254077376921, guid: fc9eba8675fbd8141858920a4d62ab4b, type: 2}
+  <ThrownHitVfx>k__BackingField: {fileID: 1709254077376921, guid: 46d58c31eafbe5046a9018a412e916a7, type: 2}
+  <ThrownRemainVfx>k__BackingField: {fileID: 0}
+  <ThrowingMovementDuration>k__BackingField: 0.3
+  <ThrowingMovementEase>k__BackingField: 1
+  <ThrowingDuration>k__BackingField: 0.3
+  <SelfSynergyVfx>k__BackingField: {fileID: 1709254077376921, guid: 8b81dc54651cbf6439a51f2ddac7f85e, type: 2}
+  <SelfSynergyHitVfx>k__BackingField: {fileID: 1709254077376921, guid: 77f136658d28b9749ada6f6dff5b8e02, type: 2}
+  <DelayBeforeSelfSynergy>k__BackingField: 0.2
+  <SelfSynergyMovementDuration>k__BackingField: 0.37
+  <SelfSynergyMovementEase>k__BackingField: 1
+  <SelfSynergyDuration>k__BackingField: 0.57

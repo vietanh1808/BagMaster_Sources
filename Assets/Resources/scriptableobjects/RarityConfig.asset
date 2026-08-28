@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2fa77c6b839d0073cf5c86ccb418ce, type: 3}
+  m_Name: RarityConfig
+  m_EditorClassIdentifier:
+  Infos:
+  - Rarity: 0
+    ResourceBg: {fileID: 21300000, guid: eef677af535d2bc4ba63e1d8604e4a1a, type: 2}
+    SubStatBg: {fileID: 21300000, guid: c51b0183cef8ee84f86041d6a3933993, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: e960095f45f2dda4699c0313af0a8e4b, type: 2}
+    TextColor: {r: 0.9169811, g: 0.9169811, b: 0.9169811, a: 1}
+    SynercyTextColor: {r: 0.8745098, g: 0.8745098, b: 0.8745098, a: 1}
+  - Rarity: 1
+    ResourceBg: {fileID: 21300000, guid: 0600303c3dd8864428574dd779984e8d, type: 2}
+    SubStatBg: {fileID: 21300000, guid: ce43dbf0ac4c4a04697b9625e4cc3979, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: f5dc9906ae1748f48990cb13d13435ce, type: 2}
+    TextColor: {r: 0.7137255, g: 0.92156863, b: 0.50980395, a: 1}
+    SynercyTextColor: {r: 0.380381, g: 0.9622642, b: 0.36130285, a: 1}
+  - Rarity: 2
+    ResourceBg: {fileID: 21300000, guid: 655e2ce2f8fbbfb4780970e1f29ac8b2, type: 2}
+    SubStatBg: {fileID: 21300000, guid: 24045ed40d6433842a22d9582bb24123, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: 36e6a712f058dae44b5f4e85d7aeeb68, type: 2}
+    TextColor: {r: 0.43137255, g: 0.80784315, b: 0.98039216, a: 1}
+    SynercyTextColor: {r: 0.103773475, g: 0.82311344, b: 1, a: 1}
+  - Rarity: 3
+    ResourceBg: {fileID: 21300000, guid: d2eb8ba08919279438410f073ea19089, type: 2}
+    SubStatBg: {fileID: 21300000, guid: 936de34336cfe2643a002abb71deecd2, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: 4beff05bb26f68b469531a8632e65d08, type: 2}
+    TextColor: {r: 0.95686275, g: 0.4509804, b: 1, a: 1}
+    SynercyTextColor: {r: 0.9790412, g: 0.2245282, b: 1, a: 1}
+  - Rarity: 4
+    ResourceBg: {fileID: 21300000, guid: 3f3ddb5bf8119ae459053b92459823cc, type: 2}
+    SubStatBg: {fileID: 21300000, guid: a3bfe89a76267ba41a22ad0660e2ce0a, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: 944447c4459735145a2e259452ba1c58, type: 2}
+    TextColor: {r: 1, g: 0.7490196, b: 0.24705882, a: 1}
+    SynercyTextColor: {r: 1, g: 0.2245282, b: 0.2245282, a: 1}
+  - Rarity: 5
+    ResourceBg: {fileID: 21300000, guid: 9107711de302ccf448c85876d15409a8, type: 2}
+    SubStatBg: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: 656f8fa2ecc2dd54abd69b2db1e0d51d, type: 2}
+    TextColor: {r: 0.9607843, g: 0.3647059, b: 0.29411766, a: 1}
+    SynercyTextColor: {r: 1, g: 0.2245282, b: 0.2245282, a: 1}
+  - Rarity: 6
+    ResourceBg: {fileID: 21300000, guid: f8c11d2b3a6aa3b43b26ac95d9587da7, type: 2}
+    SubStatBg: {fileID: 21300000, guid: f8c11d2b3a6aa3b43b26ac95d9587da7, type: 2}
+    SubStatLockBg: {fileID: 21300000, guid: 00fb97a0bcdf81d45aa6d2d1d05e14a1, type: 2}
+    TextColor: {r: 1, g: 1, b: 1, a: 1}
+    SynercyTextColor: {r: 1, g: 1, b: 1, a: 1}

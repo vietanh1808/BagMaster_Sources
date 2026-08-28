@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1394958170, guid: 35f7f987d3a19367ceaecd4e47124b63, type: 3}
+  m_Name: BattlePassCycleEventConfig
+  m_EditorClassIdentifier:
+  eventId: battle_pass
+  enable: 1
+  order: 0
+  cycleDefinition:
+    rid: 1854781786221707372
+  cycleParseTime:
+    rid: 7925653774974845033
+  references:
+    version: 2
+    RefIds:
+    - rid: 1854781786221707372
+      type: {class: SessionCycle, ns: _Game.Events.Imp, asm: Events}
+      data: {}
+    - rid: 7925653774974845033
+      type: {class: EventCycleParseUnlockChapter, ns:, asm: Assembly-CSharp}
+      data: {}

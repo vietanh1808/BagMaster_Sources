@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6b40fc62ae2d8079f403b11335081f, type: 3}
+  m_Name: 2x3
+  m_EditorClassIdentifier:
+  PlacementPoints:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 0, y: 2}
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 1, y: 2}
+  GridIcon: {fileID: 21300000, guid: 5a1d1f0504eb8ab419fc67be40dd9392, type: 2}
+  UiVerticalAlignment: 2
+  UiHorizontalAlignment: 0
+  SelectionSprite: {fileID: 0}
+  OnBagSlot: {fileID: 21300000, guid: 04bb31be79d9e1b4b9125f4e02df4db5, type: 2}
+  OnBagBorder: {fileID: 21300000, guid: 3c16f5c3437d12f4e9682001333fb965, type: 2}

@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2923a6a551846f25bc672caa31523031, type: 3}
+  m_Name: UISystemConfig
+  m_EditorClassIdentifier:
+  UIInfos:
+  - Name: Modal_ConfirmationPopup
+    Path: Modal_ConfirmationPopup
+    Type: 3
+    Location: 0
+  - Name: Modal_ConfirmationPopup_LastChance
+    Path: Modal_ConfirmationPopup_LastChance
+    Type: 3
+    Location: 0
+  - Name: Page_EquipmentInfoPopup 1
+    Path: Page_EquipmentInfoPopup 1
+    Type: 2
+    Location: 0
+  - Name: Modal_CombatGemOffer
+    Path: Modal_CombatGemOffer
+    Type: 3
+    Location: 0
+  - Name: Page_AllPlayerResources
+    Path: Page_AllPlayerResources
+    Type: 2
+    Location: 0
+  - Name: Page_ChapterReward_MultipleMode
+    Path: Page_ChapterReward_MultipleMode
+    Type: 2
+    Location: 0
+  - Name: Page_EquipmentInfoPopup
+    Path: Page_EquipmentInfoPopup
+    Type: 2
+    Location: 0
+  - Name: Page_BattlePassExtraRewardPanel
+    Path: Page_BattlePassExtraRewardPanel
+    Type: 2
+    Location: 0
+  - Name: Modal_BenchChargeRefillPopup
+    Path: Modal_BenchChargeRefillPopup
+    Type: 3
+    Location: 0
+  - Name: Page_GearUpgradeInfoPopup
+    Path: Page_GearUpgradeInfoPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_EventDungeonUnlocked
+    Path: Modal_EventDungeonUnlocked
+    Type: 3
+    Location: 0
+  - Name: Page_GameplayCoinSupplyPopup
+    Path: Page_GameplayCoinSupplyPopup
+    Type: 2
+    Location: 0
+  - Name: Page_EventDungeonInfo_old
+    Path: Page_EventDungeonInfo
+    Type: 2
+    Location: 0
+  - Name: Page_DailyEventDungeon
+    Path: Page_DailyEventDungeon
+    Type: 2
+    Location: 0
+  - Name: Page_Subscriptions
+    Path: Page_Subscriptions
+    Type: 2
+    Location: 0
+  - Name: Page_BattlePassLevelView2
+    Path: Page_BattlePassLevelView2
+    Type: 2
+    Location: 0
+  - Name: Builtin_TooltipPopup
+    Path: Builtin_TooltipPopup
+    Type: 2
+    Location: 0
+  - Name: Page_ArenaMain
+    Path: Page_ArenaMain
+    Type: 2
+    Location: 0
+  - Name: Modal_ArenaUpRank
+    Path: Modal_ArenaUpRank
+    Type: 3
+    Location: 0
+  - Name: Modal_AdsOptions
+    Path: Modal_AdsOptions
+    Type: 3
+    Location: 0
+  - Name: Page_MailBox
+    Path: Page_MailBox
+    Type: 2
+    Location: 0
+  - Name: Page_CombatVictoryPvP
+    Path: Page_CombatVictoryPvP
+    Type: 2
+    Location: 0
+  - Name: Page_RewardGachaPopup
+    Path: Page_RewardGachaPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_ChapterPackOffer
+    Path: Modal_ChapterPackOffer
+    Type: 3
+    Location: 0
+  - Name: Page_GameplaySettingPopup
+    Path: Page_GameplaySettingPopup
+    Type: 2
+    Location: 0
+  - Name: Page_EventDungeonDefeat
+    Path: Page_EventDungeonDefeat
+    Type: 2
+    Location: 0
+  - Name: Page_CombatDefeat
+    Path: Page_CombatDefeat
+    Type: 2
+    Location: 0
+  - Name: Modal_EventDungeonAdsOptions
+    Path: Modal_EventDungeonAdsOptions
+    Type: 3
+    Location: 0
+  - Name: Page_GearStatusPopup
+    Path: Page_GearStatusPopup
+    Type: 2
+    Location: 0
+  - Name: Page_CombatDefeatPvP
+    Path: Page_CombatDefeatPvP
+    Type: 2
+    Location: 0
+  - Name: Page_Setting_Language
+    Path: Page_Setting_Language
+    Type: 2
+    Location: 0
+  - Name: Modal_Infopage_GachaRate
+    Path: Modal_Infopage_GachaRate
+    Type: 3
+    Location: 0
+  - Name: Page_PatrolInfo
+    Path: Page_PatrolInfo
+    Type: 2
+    Location: 0
+  - Name: Page_EventDungeon
+    Path: Page_EventDungeon
+    Type: 2
+    Location: 0
+  - Name: Modal_PurchaseTicket
+    Path: Modal_PurchaseTicket
+    Type: 3
+    Location: 0
+  - Name: Modal_RecipeInfo
+    Path: Modal_RecipeInfo
+    Type: 3
+    Location: 0
+  - Name: Page_SettingOption
+    Path: Page_SettingOption
+    Type: 2
+    Location: 0
+  - Name: Page_DailyEventChallenge
+    Path: Page_DailyEventChallenge
+    Type: 2
+    Location: 0
+  - Name: Page_TraitShop
+    Path: Page_TraitShop
+    Type: 2
+    Location: 0
+  - Name: Modal_RecycleChargeRefillPopup
+    Path: Modal_RecycleChargeRefillPopup
+    Type: 3
+    Location: 0
+  - Name: Modal_ArenaInfo
+    Path: Modal_ArenaInfo
+    Type: 3
+    Location: 0
+  - Name: Sheet_Talent
+    Path: Sheet_Talent
+    Type: 1
+    Location: 1
+  - Name: Page_StrongerSuggestionPopup
+    Path: Page_StrongerSuggestionPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_CampaignModeSelect
+    Path: Modal_CampaignModeSelect
+    Type: 3
+    Location: 0
+  - Name: Modal_SkillAcquired
+    Path: Modal_SkillAcquired
+    Type: 3
+    Location: 0
+  - Name: Page_RewardWeekPopup
+    Path: Page_RewardWeekPopup
+    Type: 2
+    Location: 0
+  - Name: Page_GameplayRevivePopup
+    Path: Page_GameplayRevivePopup
+    Type: 2
+    Location: 0
+  - Name: Page_PatrolPanel
+    Path: Page_PatrolPanel
+    Type: 2
+    Location: 0
+  - Name: Page_ArenaMerchant
+    Path: Page_ArenaMerchant
+    Type: 2
+    Location: 0
+  - Name: Page_CombatVictory
+    Path: Page_CombatVictory
+    Type: 2
+    Location: 0
+  - Name: Sheet_Inventory
+    Path: Sheet_Inventory
+    Type: 1
+    Location: 1
+  - Name: Sheet_Battle
+    Path: Sheet_Battle
+    Type: 1
+    Location: 1
+  - Name: Page_EnergyPurchasePopup
+    Path: Page_EnergyPurchasePopup
+    Type: 2
+    Location: 0
+  - Name: Page_GearIntroInCombatPopup
+    Path: Page_GearIntroInCombatPopup
+    Type: 2
+    Location: 0
+  - Name: Page_EventDungeonVictory
+    Path: Page_EventDungeonVictory
+    Type: 2
+    Location: 0
+  - Name: Page_ChainPackPopup
+    Path: Page_ChainPackPopup
+    Type: 2
+    Location: 0
+  - Name: Page_BattlePassBanner
+    Path: Page_BattlePassBanner
+    Type: 2
+    Location: 0
+  - Name: Page_FusingPopup
+    Path: Page_FusingPopup
+    Type: 2
+    Location: 0
+  - Name: Page_BattlePassLevelView3
+    Path: Page_BattlePassLevelView3
+    Type: 2
+    Location: 0
+  - Name: Modal_RewardReceivePopup
+    Path: Modal_RewardReceivePopup
+    Type: 3
+    Location: 0
+  - Name: Page_RewardPopupShowOnly
+    Path: Page_RewardPopupShowOnly
+    Type: 2
+    Location: 0
+  - Name: Page_ResourcePopupInfo
+    Path: Page_ResourcePopupInfo
+    Type: 2
+    Location: 0
+  - Name: Page_ContinueSavePopup
+    Path: Page_ContinueSavePopup
+    Type: 2
+    Location: 0
+  - Name: Modal_ArenaReward
+    Path: Modal_ArenaReward
+    Type: 3
+    Location: 0
+  - Name: Sheet_Gear
+    Path: Sheet_Gear
+    Type: 1
+    Location: 1
+  - Name: Page_BattlePassPurchasePanel
+    Path: Page_BattlePassPurchasePanel
+    Type: 2
+    Location: 0
+  - Name: Modal_ArenaChallenge
+    Path: Modal_ArenaChallenge
+    Type: 3
+    Location: 0
+  - Name: Page_EventDungeonRevivePopup
+    Path: Page_EventDungeonRevivePopup
+    Type: 2
+    Location: 0
+  - Name: Sheet_EquipmentFuse
+    Path: Sheet_EquipmentFuse
+    Type: 1
+    Location: 1
+  - Name: Page_GearUnlockPopup
+    Path: Page_GearUnlockPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_RewardBundlePlayerChoice
+    Path: Modal_RewardBundlePlayerChoice
+    Type: 3
+    Location: 0
+  - Name: Modal_StarBreaking
+    Path: Modal_StarBreaking
+    Type: 3
+    Location: 0
+  - Name: Modal_PurchaseAdsTicketPopup
+    Path: Modal_PurchaseAdsTicketPopup
+    Type: 3
+    Location: 0
+  - Name: Page_Setting
+    Path: Page_Setting
+    Type: 2
+    Location: 0
+  - Name: Builtin_ResourceInfoPopup
+    Path: Builtin_ResourceInfoPopup
+    Type: 2
+    Location: 0
+  - Name: Page_GameplayPausePopup
+    Path: Page_GameplayPausePopup
+    Type: 2
+    Location: 0
+  - Name: Page_ChapterRewardRecieved
+    Path: Page_ChapterRewardRecieved
+    Type: 2
+    Location: 0
+  - Name: Modal_EquipmentInfoPopup
+    Path: Modal_EquipmentInfoPopup
+    Type: 3
+    Location: 0
+  - Name: Modal_EventDungeonInfo
+    Path: Modal_EventDungeonInfo
+    Type: 3
+    Location: 0
+  - Name: Sheet_Shop
+    Path: Sheet_Shop
+    Type: 1
+    Location: 1
+  - Name: Modal_ContinueFromDefeat
+    Path: Modal_ContinueFromDefeat
+    Type: 3
+    Location: 0
+  - Name: Page_StatHolderDebug
+    Path: Page_StatHolderDebug
+    Type: 2
+    Location: 0
+  - Name: Page_BattlePassPopup
+    Path: Page_BattlePassPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_RewardBundleViewOnly
+    Path: Modal_RewardBundleViewOnly
+    Type: 3
+    Location: 0
+  - Name: Modal_GearLevel5Popup
+    Path: Modal_GearLevel5Popup
+    Type: 3
+    Location: 0
+  - Name: Page_EventChallengeInfo
+    Path: Page_EventChallengeInfo
+    Type: 2
+    Location: 0
+  - Name: Modal_EquipmentRevertPreviewPopup
+    Path: Modal_EquipmentRevertPreviewPopup
+    Type: 3
+    Location: 0
+  - Name: Page_NotEnoughPopup
+    Path: Page_NotEnoughPopup
+    Type: 2
+    Location: 0
+  - Name: Modal_Infopage
+    Path: Modal_Infopage
+    Type: 3
+    Location: 0
+  - Name: Modal_CurrencyObtainInfo
+    Path: Modal_CurrencyObtainInfo
+    Type: 3
+    Location: 0
+  - Name: Page_GearCollection
+    Path: Page_GearCollection
+    Type: 2
+    Location: 0
+  - Name: Page_AllPlayerStats
+    Path: Page_AllPlayerStats
+    Type: 2
+    Location: 0
+  - Name: Page_GearInfoPopup
+    Path: Page_GearInfoPopup
+    Type: 2
+    Location: 0
+  - Name: Page_NewbiePopup
+    Path: Page_NewbiePopup
+    Type: 2
+    Location: 0
+  - Name: Modal_EventDungeonPurchaseAdsTicket
+    Path: Modal_EventDungeonPurchaseAdsTicket
+    Type: 3
+    Location: 0
+  - Name: Page_NoAdsOffer
+    Path: Page_NoAdsOffer
+    Type: 2
+    Location: 0
+  - Name: Page_DailyGift
+    Path: Page_DailyGift
+    Type: 2
+    Location: 0
+  - Name: Banner Chest - Template
+    Path: Banner Chest - Template
+    Type: 3
+    Location: 0
+  - Name: Page_Carnival_Intro_Base
+    Path: Page_Carnival_Intro_Base
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_SevenDayRerun_2
+    Path: Page_Carnival_Intro_SevenDayRerun_2
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_SpendGem
+    Path: Page_Carnival_Intro_SpendGem
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_SevendayRerun_4
+    Path: Page_Carnival_SevendayRerun_4
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_Gacha
+    Path: Page_Carnival_Intro_Gacha
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_Dungeon
+    Path: Page_Carnival_Intro_Dungeon
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_SevenDayRerun_4
+    Path: Page_Carnival_Intro_SevenDayRerun_4
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Gacha
+    Path: Page_Carnival_Gacha
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_SpendGem
+    Path: Page_Carnival_SpendGem
+    Type: 2
+    Location: 0
+  - Name: Page_SevenDayQuest
+    Path: Page_SevenDayQuest
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_SevendayRerun_2
+    Path: Page_Carnival_SevendayRerun_2
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_SevenDayRerun_3
+    Path: Page_Carnival_Intro_SevenDayRerun_3
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_TopUp
+    Path: Page_Carnival_TopUp
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_SevendayRerun_3
+    Path: Page_Carnival_SevendayRerun_3
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_Sevenday_1
+    Path: Page_Carnival_Intro_Sevenday_1
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_SpendEnergy
+    Path: Page_Carnival_SpendEnergy
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Dungeon
+    Path: Page_Carnival_Dungeon
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_PvP
+    Path: Page_Carnival_Intro_PvP
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_TopUp
+    Path: Page_Carnival_Intro_TopUp
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_Intro_SpendEnergy
+    Path: Page_Carnival_Intro_SpendEnergy
+    Type: 2
+    Location: 0
+  - Name: Page_Carnival_PvP
+    Path: Page_Carnival_PvP
+    Type: 2
+    Location: 0
+  - Name: Modal_ConfirmationPurchasePopup
+    Path: Modal_ConfirmationPurchasePopup
+    Type: 3
+    Location: 0

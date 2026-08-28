@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77d6a36ea6a2959a86b099caa87325b, type: 3}
+  m_Name: EquipmentPassiveUIProfile_FusionScreen
+  m_EditorClassIdentifier:
+  _rarityDatas:
+  - Rarity: 0
+    ProfileDatas:
+    - <RarityName>k__BackingField: Common
+      PassiveIcon: {fileID: 21300000, guid: c51b0183cef8ee84f86041d6a3933993, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: e960095f45f2dda4699c0313af0a8e4b, type: 2}
+      TextColor: {r: 0.81960785, g: 0.8, b: 0.68235296, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 1
+    ProfileDatas:
+    - <RarityName>k__BackingField: Uncommon
+      PassiveIcon: {fileID: 21300000, guid: ce43dbf0ac4c4a04697b9625e4cc3979, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: f5dc9906ae1748f48990cb13d13435ce, type: 2}
+      TextColor: {r: 0.69803923, g: 1, b: 0, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 2
+    ProfileDatas:
+    - <RarityName>k__BackingField: Rare
+      PassiveIcon: {fileID: 21300000, guid: 24045ed40d6433842a22d9582bb24123, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 36e6a712f058dae44b5f4e85d7aeeb68, type: 2}
+      TextColor: {r: 0, g: 0.93333334, b: 1, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 3
+    ProfileDatas:
+    - <RarityName>k__BackingField: Epic
+      PassiveIcon: {fileID: 21300000, guid: 936de34336cfe2643a002abb71deecd2, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 4beff05bb26f68b469531a8632e65d08, type: 2}
+      TextColor: {r: 0.8862745, g: 0.42352942, b: 1, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Epic +1
+      PassiveIcon: {fileID: 21300000, guid: 936de34336cfe2643a002abb71deecd2, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: c634e7981e8f84f4a9953fb1f745b20e, type: 2}
+      TextColor: {r: 0.8862745, g: 0.42352942, b: 1, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Epic +2
+      PassiveIcon: {fileID: 21300000, guid: 936de34336cfe2643a002abb71deecd2, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 20617b2aaaa156340802c684f6a9ce62, type: 2}
+      TextColor: {r: 0.8862745, g: 0.42352942, b: 1, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 4
+    ProfileDatas:
+    - <RarityName>k__BackingField: Legendary
+      PassiveIcon: {fileID: 21300000, guid: a3bfe89a76267ba41a22ad0660e2ce0a, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 944447c4459735145a2e259452ba1c58, type: 2}
+      TextColor: {r: 1, g: 0.7921569, b: 0.22745098, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Legendary+1
+      PassiveIcon: {fileID: 21300000, guid: a3bfe89a76267ba41a22ad0660e2ce0a, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 88421adda29fd214589d59c237b436b2, type: 2}
+      TextColor: {r: 1, g: 0.7921569, b: 0.22745098, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Legendary +2
+      PassiveIcon: {fileID: 21300000, guid: a3bfe89a76267ba41a22ad0660e2ce0a, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 1b0b344918fd26d49b59144e448392e0, type: 2}
+      TextColor: {r: 1, g: 0.7921569, b: 0.22745098, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Legendary +3
+      PassiveIcon: {fileID: 21300000, guid: a3bfe89a76267ba41a22ad0660e2ce0a, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: cbf7343082421944193aa9e1222746fd, type: 2}
+      TextColor: {r: 1, g: 0.7921569, b: 0.22745098, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 5
+    ProfileDatas:
+    - <RarityName>k__BackingField: Mystic
+      PassiveIcon: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 656f8fa2ecc2dd54abd69b2db1e0d51d, type: 2}
+      TextColor: {r: 1, g: 0.3019608, b: 0.40784314, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Mystic +1
+      PassiveIcon: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 66df65be1ba7f2d4d994893797fc05cc, type: 2}
+      TextColor: {r: 1, g: 0.3019608, b: 0.40784314, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Mystic +2
+      PassiveIcon: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: d7df54c452fc46e48952b18815306415, type: 2}
+      TextColor: {r: 1, g: 0.3019608, b: 0.40784314, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Mystic +3
+      PassiveIcon: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 3ab3f59efa7e6f64ba2918ca3fd495a8, type: 2}
+      TextColor: {r: 1, g: 0.3019608, b: 0.40784314, a: 1}
+      FontMaterial: {fileID: 0}
+    - <RarityName>k__BackingField: Mystic +4
+      PassiveIcon: {fileID: 21300000, guid: ae99827b4663eb14cb16e3387776f73e, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 72aec6b4082862442862acb2ec6126d9, type: 2}
+      TextColor: {r: 1, g: 0.3019608, b: 0.40784314, a: 1}
+      FontMaterial: {fileID: 0}
+  - Rarity: 6
+    ProfileDatas:
+    - <RarityName>k__BackingField: Chaotic
+      PassiveIcon: {fileID: 21300000, guid: f8c11d2b3a6aa3b43b26ac95d9587da7, type: 2}
+      PassiveLockIcon: {fileID: 21300000, guid: 00fb97a0bcdf81d45aa6d2d1d05e14a1, type: 2}
+      TextColor: {r: 1, g: 1, b: 1, a: 1}
+      FontMaterial: {fileID: 0}

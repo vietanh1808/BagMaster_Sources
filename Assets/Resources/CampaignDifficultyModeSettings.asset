@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d4037014a5b06f1fa6584c6e33ea7b, type: 3}
+  m_Name: CampaignDifficultyModeSettings
+  m_EditorClassIdentifier:
+  _settings:
+    _keys: 000000000100000002000000
+    _values:
+    - ButtonSprite: {fileID: 21300000, guid: 79695780cb947a44cbaeef99fc6b23e2, type: 2}
+      LevelTypeSprite: {fileID: 21300000, guid: d2801f5d8b78dde4094674b30ae5645b, type: 2}
+      ChapterNameTopColor: {r: 0.7137255, g: 1, b: 0.1764706, a: 1}
+      ChapterNameBottomColor: {r: 0.88235295, g: 1, b: 0, a: 1}
+      RewardHaloColor: {r: 1, g: 0.7921569, b: 0, a: 1}
+      RewardCircleSprite: {fileID: 21300000, guid: a56a83b8fe7ce9f4586493ee55752744, type: 2}
+      RewardCircleColor: {r: 0, g: 0, b: 0, a: 1}
+      UseSpineBackground: 0
+      RewardBackgroundSprite: {fileID: 21300000, guid: ab37b3a18dd8133448806fe6d63dbc50, type: 2}
+      SpineSkinName: normal_mode
+    - ButtonSprite: {fileID: 21300000, guid: 860cca913b4e09f4e8e9533908b60fac, type: 2}
+      LevelTypeSprite: {fileID: 21300000, guid: fc45dc44f31652943acf1bb72fcf70e6, type: 2}
+      ChapterNameTopColor: {r: 0.4117647, g: 0.21568628, b: 1, a: 1}
+      ChapterNameBottomColor: {r: 0.68235296, g: 0.69803923, b: 1, a: 1}
+      RewardHaloColor: {r: 0.85490197, g: 0.42352942, b: 1, a: 1}
+      RewardCircleSprite: {fileID: 21300000, guid: 322cf9ec1810d2047a3e18f810a0cf61, type: 2}
+      RewardCircleColor: {r: 0.6, g: 0, b: 1, a: 1}
+      UseSpineBackground: 1
+      RewardBackgroundSprite: {fileID: 21300000, guid: 05f60e6cb8d80b94a97b4f15c7ae18b6, type: 2}
+      SpineSkinName: hard_mode
+    - ButtonSprite: {fileID: 21300000, guid: 0391949f433515a44890b665bc415443, type: 2}
+      LevelTypeSprite: {fileID: 21300000, guid: 8a270b8ca6d6cb8488601544f571d9f6, type: 2}
+      ChapterNameTopColor: {r: 0.68235296, g: 0.105882354, b: 0.003921569, a: 1}
+      ChapterNameBottomColor: {r: 1, g: 0.58431375, b: 0.5294118, a: 1}
+      RewardHaloColor: {r: 1, g: 0.7921569, b: 0, a: 1}
+      RewardCircleSprite: {fileID: 21300000, guid: a56a83b8fe7ce9f4586493ee55752744, type: 2}
+      RewardCircleColor: {r: 0, g: 0, b: 0, a: 1}
+      UseSpineBackground: 1
+      RewardBackgroundSprite: {fileID: 21300000, guid: abbe597ac326028438e259a28e3e504b, type: 2}
+      SpineSkinName: hell_mode

@@ -1,0 +1,317 @@
+[
+    {
+        "ID": 1,
+        "Passive_Skill_ID": "3900011",
+        "STAT": [
+            1,
+            10
+        ],
+        "Asset": "test_03",
+        "Name": "Bow",
+        "Description": "<b></b>High attack, long range, but slow",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+5%</size></color> <color=orange>Crit Rate</Color> per <color=orange>[Dagger]</Color> in <sprite name=blue_square> zone",
+        "Grid": "3x1",
+        "Rarity": "Common",
+        "Atk_asset": "Icon_Gear_Projectile_Bow1",
+        "Tags": "Precise,Ranged,Weapon,Bow",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Wooden click",
+        "MergeAppearVfx": null,
+        "MarkPosition": "2;0"
+    },
+    {
+        "ID": 2,
+        "Passive_Skill_ID": 3900011,
+        "STAT": [
+            1,
+            20
+        ],
+        "Asset": "test_05",
+        "Name": "Bow",
+        "Description": "<b></b>High attack, long range, but slow",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+5%</size></color> <color=orange>Crit Rate</Color> per <color=orange>[Dagger]</Color> in <sprite name=blue_square> zone",
+        "Grid": "3x1",
+        "Rarity": "Uncommon",
+        "Atk_asset": "Icon_Gear_Projectile_Bow2",
+        "Tags": "Precise,Ranged,Weapon,Bow",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeGreen",
+        "MarkPosition": "2;0"
+    },
+    {
+        "ID": 3,
+        "Passive_Skill_ID": 3900011,
+        "STAT": [
+            1,
+            40
+        ],
+        "Asset": "test_07",
+        "Name": "Bow",
+        "Description": "<b></b>High attack, long range, but slow",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+5%</size></color> <color=orange>Crit Rate</Color> per <color=orange>[Dagger]</Color> in <sprite name=blue_square> zone",
+        "Grid": "3x1",
+        "Rarity": "Rare",
+        "Atk_asset": "Icon_Gear_Projectile_Bow3",
+        "Tags": "Precise,Ranged,Weapon,Bow",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeBlue",
+        "MarkPosition": "2;0"
+    },
+    {
+        "ID": 4,
+        "Passive_Skill_ID": 3900011,
+        "STAT": [
+            1,
+            80
+        ],
+        "Asset": "test_09",
+        "Name": "Bow",
+        "Description": "<b></b>High attack, long range, but slow",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+5%</size></color> <color=orange>Crit Rate</Color> per <color=orange>[Dagger]</Color> in <sprite name=blue_square> zone",
+        "Grid": "3x1",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Bow4",
+        "Tags": "Precise,Ranged,Weapon,Bow",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergePurple",
+        "MarkPosition": "2;0"
+    },
+    {
+        "ID": 5,
+        "Passive_Skill_ID": "3900014;3700019",
+        "STAT": [
+            1,
+            160
+        ],
+        "Asset": "test_11",
+        "Name": "Bow",
+        "Description": "<b></b>High attack, long range, but slow",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+5%</size></color> <color=orange>Crit Rate</Color> per <color=orange>[Precise]</Color> in <sprite name=blue_square> zone",
+        "Grid": "3x1",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Bow5",
+        "Tags": "Precise,Ranged,Weapon,Bow",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeRed",
+        "MarkPosition": "2;0"
+    },
+    {
+        "ID": 61,
+        "Passive_Skill_ID": "3900131",
+        "STAT": [
+            2,
+            10
+        ],
+        "Asset": "test_19",
+        "Name": "Shuriken",
+        "Description": "<b></b>Mid range but quick ranged attack",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+15%</size></color> <color=orange>ATK</Color> per <color=orange>[Shuriken]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x1",
+        "Rarity": "Common",
+        "Atk_asset": "Icon_Gear_Projectile_Shuriken1",
+        "Tags": "Precise,Ranged,Weapon,Shuriken",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": null,
+        "MarkPosition": "0;0"
+    },
+    {
+        "ID": 62,
+        "Passive_Skill_ID": 3900131,
+        "STAT": [
+            2,
+            20
+        ],
+        "Asset": "test_21",
+        "Name": "Shuriken",
+        "Description": "<b></b>Mid range but quick ranged attack",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+15%</size></color> <color=orange>ATK</Color> per <color=orange>[Shuriken]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x1",
+        "Rarity": "Uncommon",
+        "Atk_asset": "Icon_Gear_Projectile_Shuriken2",
+        "Tags": "Precise,Ranged,Weapon,Shuriken",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeGreen",
+        "MarkPosition": "0;0"
+    },
+    {
+        "ID": 63,
+        "Passive_Skill_ID": 3900131,
+        "STAT": [
+            2,
+            40
+        ],
+        "Asset": "test_23",
+        "Name": "Shuriken",
+        "Description": "<b></b>Mid range but quick ranged attack",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+15%</size></color> <color=orange>ATK</Color> per <color=orange>[Shuriken]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x1",
+        "Rarity": "Rare",
+        "Atk_asset": "Icon_Gear_Projectile_Shuriken3",
+        "Tags": "Precise,Ranged,Weapon,Shuriken",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeBlue",
+        "MarkPosition": "0;0"
+    },
+    {
+        "ID": 64,
+        "Passive_Skill_ID": 3900131,
+        "STAT": [
+            2,
+            80
+        ],
+        "Asset": "test_25",
+        "Name": "Shuriken",
+        "Description": "<b></b>Mid range but quick ranged attack",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+15%</size></color> <color=orange>ATK</Color> per <color=orange>[Shuriken]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x1",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Shuriken4",
+        "Tags": "Precise,Ranged,Weapon,Shuriken",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergePurple",
+        "MarkPosition": "0;0"
+    },
+    {
+        "ID": 65,
+        "Passive_Skill_ID": "3900134;3700139",
+        "STAT": [
+            2,
+            160
+        ],
+        "Asset": "test_27",
+        "Name": "Shuriken",
+        "Description": "<b></b>Mid range but quick ranged attack",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+15%</size></color> <color=orange>ATK</Color> per <color=orange>[Shuriken]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x1",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Shuriken5",
+        "Tags": "Precise,Ranged,Weapon,Shuriken",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeRed",
+        "MarkPosition": "0;0"
+    },
+    {
+        "ID": 76,
+        "Passive_Skill_ID": "3800161",
+        "STAT": [
+            1,
+            10
+        ],
+        "Asset": "test_35",
+        "Name": "Dagger",
+        "Description": "<b></b>Deadly and sneaky. Base <color=red>Crit%</color> +20%",
+        "SynercyDescription": "",
+        "Grid": "1x2",
+        "Rarity": "Common",
+        "Atk_asset": "Icon_Gear_Projectile_Dagger1",
+        "Tags": "Precise,Melee,Weapon,Dagger",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Wooden click",
+        "MergeAppearVfx": null,
+        "MarkPosition": "0;1"
+    },
+    {
+        "ID": 77,
+        "Passive_Skill_ID": "3800162",
+        "STAT": [
+            1,
+            20
+        ],
+        "Asset": "test_37",
+        "Name": "Dagger",
+        "Description": "<b></b>Deadly and sneaky. Base <color=red>Crit%</color> +20%",
+        "SynercyDescription": "",
+        "Grid": "1x2",
+        "Rarity": "Uncommon",
+        "Atk_asset": "Icon_Gear_Projectile_Dagger2",
+        "Tags": "Precise,Melee,Weapon,Dagger",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeGreen",
+        "MarkPosition": "0;1"
+    },
+    {
+        "ID": 78,
+        "Passive_Skill_ID": "3800163",
+        "STAT": [
+            1,
+            40
+        ],
+        "Asset": "test_39",
+        "Name": "Dagger",
+        "Description": "<b></b>Deadly and sneaky. Base <color=red>Crit%</color> +20%",
+        "SynercyDescription": "",
+        "Grid": "1x2",
+        "Rarity": "Rare",
+        "Atk_asset": "Icon_Gear_Projectile_Dagger3",
+        "Tags": "Precise,Melee,Weapon,Dagger",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeBlue",
+        "MarkPosition": "0;1"
+    },
+    {
+        "ID": 79,
+        "Passive_Skill_ID": "3800164",
+        "STAT": [
+            1,
+            80
+        ],
+        "Asset": "test_41",
+        "Name": "Dagger",
+        "Description": "<b></b>Deadly and sneaky. Base <color=red>Crit%</color> +20%",
+        "SynercyDescription": "",
+        "Grid": "1x2",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Dagger4",
+        "Tags": "Precise,Melee,Weapon,Dagger",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergePurple",
+        "MarkPosition": "0;1"
+    },
+    {
+        "ID": 80,
+        "Passive_Skill_ID": "3900165;3800165;3700169",
+        "STAT": [
+            1,
+            160
+        ],
+        "Asset": "test_43",
+        "Name": "Dagger",
+        "Description": "<b></b>Deadly and sneaky. Base <color=red>Crit%</color> +40%",
+        "SynercyDescription": "<sprite name=star>:<size=48><color=#009421>+9%</size></color> <color=orange>Crit DMG</Color> per <color=orange>[Precise]</Color> in <sprite name=blue_square> zone",
+        "Grid": "1x2",
+        "Rarity": "Epic",
+        "Atk_asset": "Icon_Gear_Projectile_Dagger5",
+        "Tags": "Precise,Melee,Weapon,Dagger",
+        "Off_Set": "0;1",
+        "PressSfx": "UI_PlaceSlot",
+        "PlaceSfx": "Metal click",
+        "MergeAppearVfx": "GearMergeRed",
+        "MarkPosition": "0;1"
+    }
+]
